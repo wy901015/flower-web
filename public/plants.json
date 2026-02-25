@@ -284,6 +284,539 @@
       "temperature": "18–26℃ 最适宜。",
       "tips": "适合放在书桌、床头等位置点缀空间。"
     }
+  },
+  {
+    "id": "rosa_climbing",
+    "cnName": "月季 (爬藤类)",
+    "enName": "Climbing Rose",
+    "aliases": ["藤本月季"],
+    "tags": ["观花", "爬藤", "庭院"],
+    "care": {
+      "light": "喜充足日照，每天至少 6 小时直射光有利于多季节开花。",
+      "water": "见干见湿，花期需充足水分但忌长期积水，雨季注意排水。",
+      "temperature": "15–28℃，冬季注意防寒和防风。",
+      "tips": "需设置支架或牵引绳引导攀爬，花后及时修剪残花和过密枝。"
+    }
+  },
+  {
+    "id": "rosa_multiflora",
+    "cnName": "蔷薇",
+    "enName": "Multiflora Rose",
+    "aliases": [],
+    "tags": ["观花", "爬藤", "庭院"],
+    "care": {
+      "light": "喜阳光充足环境，少光会导致花少、枝条徒长。",
+      "water": "保持土壤微湿，见干浇透，避免根部长期泡水。",
+      "temperature": "15–28℃，较耐寒，北方冬季可适当防寒覆盖。",
+      "tips": "生长旺盛，需定期修剪控制高度和造型，可作花篱或拱门。"
+    }
+  },
+  {
+    "id": "wisteria_sinensis",
+    "cnName": "紫藤",
+    "enName": "Chinese Wisteria",
+    "aliases": [],
+    "tags": ["观花", "爬藤", "庭院"],
+    "care": {
+      "light": "喜充足日照，光照越好开花越繁盛。",
+      "water": "生长期保持土壤湿润，花后适当控水，忌严重积水。",
+      "temperature": "15–30℃，较耐寒，冬季落叶休眠。",
+      "tips": "需要牢固支架，修剪时保留花芽集中部位以利来年开花。"
+    }
+  },
+  {
+    "id": "lonicera_japonica",
+    "cnName": "金银花",
+    "enName": "Japanese Honeysuckle",
+    "aliases": ["忍冬"],
+    "tags": ["观花", "药用", "爬藤"],
+    "care": {
+      "light": "喜阳光充足，也能耐半阴，光照好时花量更大。",
+      "water": "耐旱性较强，盆土干透后浇透即可。",
+      "temperature": "10–30℃ 生长良好，较耐寒。",
+      "tips": "可作花篱或地被，花朵可入药但使用前需确认品种和方法。"
+    }
+  },
+  {
+    "id": "trachelospermum_jasminoides",
+    "cnName": "风车茉莉 (络石)",
+    "enName": "Star Jasmine",
+    "aliases": ["络石", "风车茉莉"],
+    "tags": ["观花", "芳香", "爬藤"],
+    "care": {
+      "light": "喜明亮光照，可全日照或半阴环境。",
+      "water": "保持盆土微湿，见干浇透，忌长期积水。",
+      "temperature": "15–28℃，冬季不宜低于 5℃。",
+      "tips": "花期香味浓郁，可栽种在阳台或庭院廊架供攀爬。"
+    }
+  },
+  {
+    "id": "clematis",
+    "cnName": "铁线莲",
+    "enName": "Clematis",
+    "aliases": [],
+    "tags": ["观花", "爬藤", "庭院"],
+    "care": {
+      "light": "喜半日照或散射光，根部宜遮阴，枝叶向阳。",
+      "water": "保持土壤湿润但排水良好，忌严重积水。",
+      "temperature": "15–25℃ 生长最佳，部分品种耐寒性好。",
+      "tips": "需根据品种选择合适修剪方式，利于翌年多开花。"
+    }
+  },
+  {
+    "id": "hedera_helix",
+    "cnName": "常春藤",
+    "enName": "English Ivy",
+    "aliases": [],
+    "tags": ["观叶植物", "爬藤", "地被"],
+    "care": {
+      "light": "耐阴，散射光环境生长良好，避免烈日暴晒。",
+      "water": "土表略干即可浇水，过湿易烂根。",
+      "temperature": "10–25℃ 较适宜，冬季室外栽培需防寒。",
+      "tips": "可作盆栽垂吊或墙面绿化，汁液对皮肤可能有轻微刺激。"
+    }
+  },
+  {
+    "id": "campsis_grandiflora",
+    "cnName": "凌霄",
+    "enName": "Chinese Trumpet Creeper",
+    "aliases": [],
+    "tags": ["观花", "爬藤", "庭院"],
+    "care": {
+      "light": "喜充足日照，光线越好花越多。",
+      "water": "耐旱能力尚可，见干浇透即可。",
+      "temperature": "15–30℃ 生长良好，冬季落叶休眠。",
+      "tips": "花具观赏性但汁液可能引起皮肤敏感，修剪时可戴手套。"
+    }
+  },
+  {
+    "id": "rosa_banksiae",
+    "cnName": "木香",
+    "enName": "Banksia Rose",
+    "aliases": ["木香花"],
+    "tags": ["观花", "爬藤", "庭院"],
+    "care": {
+      "light": "喜充足阳光，少光会影响开花量。",
+      "water": "生长期保持土壤略湿润，开花后适当控水。",
+      "temperature": "15–28℃，南方常绿，北方注意防寒。",
+      "tips": "多作花墙或花廊使用，花期集中在春季。"
+    }
+  },
+  {
+    "id": "parthenocissus_tricuspidata",
+    "cnName": "爬山虎",
+    "enName": "Boston Ivy",
+    "aliases": ["地锦"],
+    "tags": ["观叶植物", "爬藤", "墙面绿化"],
+    "care": {
+      "light": "全日照到半阴均可，日照充足时秋季叶色更艳。",
+      "water": "幼苗期保持适度湿润，成株较耐旱。",
+      "temperature": "耐寒性强，多地可露地越冬。",
+      "tips": "吸盘强劲，适合绿化墙面，但老墙上使用需留意墙体状况。"
+    }
+  },
+  {
+    "id": "vitis_vinifera",
+    "cnName": "葡萄",
+    "enName": "Grape Vine",
+    "aliases": ["葡萄藤"],
+    "tags": ["果树", "爬藤", "庭院"],
+    "care": {
+      "light": "喜充足日照，光照越好结果越多、糖度越高。",
+      "water": "生长期需适度水分，结果期避免过度干旱或积水。",
+      "temperature": "15–30℃，冬季落叶休眠，耐寒性视品种而定。",
+      "tips": "需搭设棚架或篱架，合理疏果和修剪有利于提高果实品质。"
+    }
+  },
+  {
+    "id": "ginkgo_biloba",
+    "cnName": "银杏",
+    "enName": "Ginkgo",
+    "aliases": ["白果树"],
+    "tags": ["行道树", "观叶", "庭院"],
+    "care": {
+      "light": "喜阳光充足，也可耐半阴环境。",
+      "water": "定植后较耐旱，长期积水会影响根系生长。",
+      "temperature": "耐寒耐热，适应性强，多地可露地栽培。",
+      "tips": "秋季叶色金黄观赏性强，果实有异味，庭院栽培可选雄株品种。"
+    }
+  },
+  {
+    "id": "cedrus_deodara",
+    "cnName": "雪松",
+    "enName": "Deodar Cedar",
+    "aliases": [],
+    "tags": ["常绿乔木", "行道树", "庭院"],
+    "care": {
+      "light": "喜阳光充足，耐轻度阴影。",
+      "water": "幼树期保持土壤湿润，成树较耐旱。",
+      "temperature": "耐寒性较好，适合温带地区栽培。",
+      "tips": "适合作为庭院标志树或行道树，注意预留足够空间。"
+    }
+  },
+  {
+    "id": "pinus_tabulaeformis",
+    "cnName": "油松",
+    "enName": "Chinese Pine",
+    "aliases": [],
+    "tags": ["常绿乔木", "园林"],
+    "care": {
+      "light": "喜阳，忌长期荫蔽。",
+      "water": "耐旱，忌积水，适合排水良好的坡地或庭院。",
+      "temperature": "耐寒耐旱，适应性强。",
+      "tips": "可作庭院景观松或行道树，修剪时注意保持自然姿态。"
+    }
+  },
+  {
+    "id": "platycladus_orientalis",
+    "cnName": "侧柏",
+    "enName": "Chinese Arborvitae",
+    "aliases": [],
+    "tags": ["常绿乔木", "园林"],
+    "care": {
+      "light": "喜光，也能耐一定荫蔽。",
+      "water": "耐旱性较强，盆栽时避免长期积水。",
+      "temperature": "耐寒性好，多地可露地越冬。",
+      "tips": "常用于墓园和庭院绿化，可修剪为各种造型。"
+    }
+  },
+  {
+    "id": "salix_babylonica",
+    "cnName": "柳树",
+    "enName": "Weeping Willow",
+    "aliases": [],
+    "tags": ["落叶乔木", "水岸", "庭院"],
+    "care": {
+      "light": "喜阳光充足，适宜栽植于河岸或水边。",
+      "water": "喜湿润环境，根系发达，耐水湿。",
+      "temperature": "耐寒性较好，适合温带地区。",
+      "tips": "根系较强，不宜靠近建筑物或地下管线栽种。"
+    }
+  },
+  {
+    "id": "paulownia_tomentosa",
+    "cnName": "泡桐",
+    "enName": "Empress Tree",
+    "aliases": [],
+    "tags": ["落叶乔木", "速生"],
+    "care": {
+      "light": "喜光，不耐荫。",
+      "water": "耐旱性一般，幼树期需适度浇水。",
+      "temperature": "适应性强，抗烟尘和污染。",
+      "tips": "生长迅速，木材可利用，庭院栽植需考虑树冠空间。"
+    }
+  },
+  {
+    "id": "platanus_x_acerifolia",
+    "cnName": "悬铃木 (法国梧桐)",
+    "enName": "London Plane",
+    "aliases": ["法国梧桐"],
+    "tags": ["行道树", "落叶乔木"],
+    "care": {
+      "light": "喜阳光充足，耐烟尘和污染。",
+      "water": "耐旱性一般，定植后不需频繁浇水。",
+      "temperature": "适合温带地区，耐修剪。",
+      "tips": "常作城市行道树，落叶量较大需定期清理。"
+    }
+  },
+  {
+    "id": "cinnamomum_camphora",
+    "cnName": "樟树 (香樟)",
+    "enName": "Camphor Tree",
+    "aliases": ["香樟"],
+    "tags": ["常绿乔木", "行道树", "庭院"],
+    "care": {
+      "light": "喜光，也可耐一定荫蔽。",
+      "water": "略耐旱，忌长期积水。",
+      "temperature": "喜温暖湿润气候，南方适宜露地栽培。",
+      "tips": "全株具香气，可驱虫，根系发达需注意与建筑物的距离。"
+    }
+  },
+  {
+    "id": "bombax_ceiba",
+    "cnName": "木棉",
+    "enName": "Kapok",
+    "aliases": ["英雄树"],
+    "tags": ["观花乔木", "南方"],
+    "care": {
+      "light": "喜强光和高温。",
+      "water": "耐旱性较强，雨季注意排水。",
+      "temperature": "喜温暖气候，北方不宜露地栽培。",
+      "tips": "春季花大色艳，多作行道或景观树。"
+    }
+  },
+  {
+    "id": "magnolia_champaca",
+    "cnName": "白兰花 (黄桷兰)",
+    "enName": "Michelia Champaca",
+    "aliases": ["黄桷兰", "白兰花"],
+    "tags": ["观花", "芳香", "常绿乔木"],
+    "care": {
+      "light": "喜充足阳光，可耐半阴。",
+      "water": "喜湿润环境，土壤保持微湿但不积水。",
+      "temperature": "喜温暖湿润气候，不耐严寒。",
+      "tips": "花香浓郁，可作庭院主景树或行道树。"
+    }
+  },
+  {
+    "id": "magnolia_grandiflora",
+    "cnName": "广玉兰",
+    "enName": "Southern Magnolia",
+    "aliases": [],
+    "tags": ["常绿乔木", "观花", "庭院"],
+    "care": {
+      "light": "喜阳光充足，也耐半阴。",
+      "water": "喜湿润环境，需排水良好的酸性或微酸性土壤。",
+      "temperature": "适合长江以南地区，耐高温高湿。",
+      "tips": "花大而香，叶片厚实有光泽，常作行道树或庭院树。"
+    }
+  },
+  {
+    "id": "lagerstroemia_indica",
+    "cnName": "紫薇 (百日红)",
+    "enName": "Crape Myrtle",
+    "aliases": ["百日红"],
+    "tags": ["观花灌木", "小乔木"],
+    "care": {
+      "light": "喜阳光充足，少光会影响开花量。",
+      "water": "需水量中等，见干浇透即可。",
+      "temperature": "耐热耐旱，南北方广泛栽培。",
+      "tips": "花期长达数月，适合庭院、行道或盆景栽培。"
+    }
+  },
+  {
+    "id": "osmanthus_fragrans",
+    "cnName": "桂花",
+    "enName": "Sweet Osmanthus",
+    "aliases": [],
+    "tags": ["芳香", "观花灌木", "庭院"],
+    "care": {
+      "light": "喜阳光充足，也能耐半阴。",
+      "water": "喜湿润但怕积水，夏季高温期需适度浇水。",
+      "temperature": "耐寒性一般，北方需防寒或盆栽越冬。",
+      "tips": "花香浓郁，可制作桂花茶、桂花酒等。"
+    }
+  },
+  {
+    "id": "prunus_mume",
+    "cnName": "梅花",
+    "enName": "Japanese Apricot",
+    "aliases": [],
+    "tags": ["观花乔木", "盆景"],
+    "care": {
+      "light": "喜光，不耐荫蔽。",
+      "water": "较耐旱，忌长期积水。",
+      "temperature": "耐寒性好，早春开花。",
+      "tips": "常作盆景或庭院树，花期宜观赏但不宜在室内封闭环境久置。"
+    }
+  },
+  {
+    "id": "prunus_persica",
+    "cnName": "桃花",
+    "enName": "Peach Blossom",
+    "aliases": [],
+    "tags": ["观花", "果树", "庭院"],
+    "care": {
+      "light": "喜阳光充足，少光会影响开花和结果。",
+      "water": "见干浇透，结果期需适度水分。",
+      "temperature": "喜温暖气候，耐寒性中等。",
+      "tips": "需定期修剪和疏花疏果，提高观赏和结果品质。"
+    }
+  },
+  {
+    "id": "prunus_armeniaca",
+    "cnName": "杏花",
+    "enName": "Apricot",
+    "aliases": [],
+    "tags": ["观花", "果树"],
+    "care": {
+      "light": "喜光，不耐阴。",
+      "water": "较耐旱，忌涝。",
+      "temperature": "耐寒性较好，适合北方地区。",
+      "tips": "花期较早，春季观花效果佳，结果可食。"
+    }
+  },
+  {
+    "id": "prunus_serrulata",
+    "cnName": "樱花 (日本早樱/晚樱)",
+    "enName": "Japanese Cherry",
+    "aliases": ["日本早樱", "日本晚樱"],
+    "tags": ["观花乔木", "庭院"],
+    "care": {
+      "light": "喜阳光充足，开阔通风环境更利于生长。",
+      "water": "需水量中等，忌长期积水。",
+      "temperature": "适合温带气候，耐寒性一般。",
+      "tips": "花期短暂但观赏性强，适合成片或行道栽植。"
+    }
+  },
+  {
+    "id": "malus_hupehensis",
+    "cnName": "海棠 (西府海棠/垂丝海棠)",
+    "enName": "Chinese Crabapple",
+    "aliases": ["西府海棠", "垂丝海棠"],
+    "tags": ["观花", "庭院"],
+    "care": {
+      "light": "喜阳光充足，也可耐半阴。",
+      "water": "见干浇透，忌长期积水。",
+      "temperature": "耐寒性较好，适合北方地区。",
+      "tips": "花色艳丽，适合庭院孤植或群植。"
+    }
+  },
+  {
+    "id": "prunus_triloba",
+    "cnName": "榆叶梅",
+    "enName": "Flowering Almond",
+    "aliases": [],
+    "tags": ["观花灌木"],
+    "care": {
+      "light": "喜光，不耐阴。",
+      "water": "耐旱性一般，春季花后可适当修剪。",
+      "temperature": "耐寒性较好，适合北方栽培。",
+      "tips": "花朵密集，春季观赏效果好。"
+    }
+  },
+  {
+    "id": "prunus_mume_pendula",
+    "cnName": "美人梅",
+    "enName": "Purple-leaf Plum",
+    "aliases": [],
+    "tags": ["观花", "观叶"],
+    "care": {
+      "light": "喜阳光充足，叶色在强光下更鲜艳。",
+      "water": "需水量中等，见干浇透。",
+      "temperature": "适合温带气候，耐寒性一般。",
+      "tips": "春季花粉色，叶片紫红，可同时观花观叶。"
+    }
+  },
+  {
+    "id": "loropetalum_chinense",
+    "cnName": "红花檵木",
+    "enName": "Chinese Fringe Flower",
+    "aliases": [],
+    "tags": ["观花灌木", "彩叶"],
+    "care": {
+      "light": "喜阳光充足到半阴环境。",
+      "water": "保持土壤微湿，忌长期干旱。",
+      "temperature": "喜温暖湿润气候，轻微耐寒。",
+      "tips": "叶色紫红，花色艳丽，常用于绿篱或花境。"
+    }
+  },
+  {
+    "id": "cercis_chinensis",
+    "cnName": "紫荆",
+    "enName": "Chinese Redbud",
+    "aliases": [],
+    "tags": ["观花乔木", "庭院"],
+    "care": {
+      "light": "喜阳光充足，也能耐半阴。",
+      "water": "需水量中等，见干浇透。",
+      "temperature": "耐寒性中等，适合温带地区。",
+      "tips": "早春叶前开花，花密集于枝干，观赏性强。"
+    }
+  },
+  {
+    "id": "hibiscus_syrianus",
+    "cnName": "木槿",
+    "enName": "Rose of Sharon",
+    "aliases": [],
+    "tags": ["观花灌木", "篱笆"],
+    "care": {
+      "light": "喜阳光充足，半阴也能开花。",
+      "water": "需水量中等，夏季适度浇水防干旱。",
+      "temperature": "耐热耐寒性较好。",
+      "tips": "花期长，适合作绿篱或庭院花篱。"
+    }
+  },
+  {
+    "id": "hibiscus_mutabilis",
+    "cnName": "芙蓉",
+    "enName": "Confederate Rose",
+    "aliases": [],
+    "tags": ["观花灌木"],
+    "care": {
+      "light": "喜阳光充足，略耐半阴。",
+      "water": "喜湿润环境，夏季需充足水分。",
+      "temperature": "喜温暖，不耐严寒。",
+      "tips": "花色随时间变化，由白变粉再变红，观赏独特。"
+    }
+  },
+  {
+    "id": "camellia_japonica",
+    "cnName": "茶花",
+    "enName": "Camellia",
+    "aliases": [],
+    "tags": ["观花灌木", "盆栽"],
+    "care": {
+      "light": "喜散射光或半阴，忌强光暴晒。",
+      "water": "喜湿润环境，土壤保持微湿。",
+      "temperature": "喜凉爽气候，高温季节需遮阴降温。",
+      "tips": "适合酸性土壤，花期在冬春季节。"
+    }
+  },
+  {
+    "id": "rhododendron_simsii",
+    "cnName": "杜鹃 (映山红)",
+    "enName": "Azalea",
+    "aliases": ["映山红"],
+    "tags": ["观花灌木"],
+    "care": {
+      "light": "喜散射光或半阴，忌强烈直射光。",
+      "water": "喜欢酸性、湿润土壤，忌碱性水和积水。",
+      "temperature": "喜凉爽湿润气候，高温季节需遮阴。",
+      "tips": "花色丰富，适合盆栽或庭院花境。"
+    }
+  },
+  {
+    "id": "pyracantha_fortuneana",
+    "cnName": "火棘",
+    "enName": "Firethorn",
+    "aliases": [],
+    "tags": ["观果灌木", "绿篱"],
+    "care": {
+      "light": "喜阳光充足，也能耐半阴。",
+      "water": "耐旱性较好，见干浇透即可。",
+      "temperature": "耐寒性中等，适合温带地区。",
+      "tips": "秋冬挂果成串，色彩鲜艳，枝条带刺可作防护绿篱。"
+    }
+  },
+  {
+    "id": "robinia_pseudoacacia",
+    "cnName": "刺槐 (洋槐)",
+    "enName": "Black Locust",
+    "aliases": ["洋槐"],
+    "tags": ["行道树", "蜜源植物"],
+    "care": {
+      "light": "喜阳光充足，耐旱耐贫瘠。",
+      "water": "定植后基本不需额外浇水。",
+      "temperature": "耐寒性好，多地可栽培。",
+      "tips": "春季白花成串，下垂观赏性强，花为重要蜜源。"
+    }
+  },
+  {
+    "id": "jacaranda_mimosifolia",
+    "cnName": "蓝花楹",
+    "enName": "Jacaranda",
+    "aliases": [],
+    "tags": ["观花乔木"],
+    "care": {
+      "light": "喜充足阳光，少光会影响开花。",
+      "water": "需水量中等，避免盆土长期干旱。",
+      "temperature": "喜温暖气候，不耐严寒。",
+      "tips": "花色蓝紫，花期时整树成片蓝紫色极具观赏性。"
+    }
+  },
+  {
+    "id": "acer_palmatum",
+    "cnName": "红枫",
+    "enName": "Japanese Maple",
+    "aliases": [],
+    "tags": ["观叶", "庭院"],
+    "care": {
+      "light": "喜半阴或散射光，避免强烈直射以防叶片灼伤。",
+      "water": "保持土壤微湿，忌长期干旱。",
+      "temperature": "适合温带气候，耐寒性良好。",
+      "tips": "秋季叶色鲜红，是常见的庭院彩叶树种。"
+    }
   }
 ]
 

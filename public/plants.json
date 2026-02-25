@@ -154,6 +154,136 @@
       "temperature": "15–28℃，高温季节加强通风降温，冬季注意防寒。",
       "tips": "定期修剪残花和弱枝，适量施磷钾肥可促进花芽分化和增加花量。"
     }
+  },
+  {
+    "id": "ficus_elastica",
+    "cnName": "橡皮树",
+    "enName": "Rubber Plant",
+    "aliases": ["印度橡皮树"],
+    "tags": ["观叶植物", "大型绿植", "室内"],
+    "care": {
+      "light": "明亮散射光最佳，可耐半阴，避免强光直射灼伤叶片。",
+      "water": "见干见湿，土表 2–3cm 干再浇透，冬季适当控水。",
+      "temperature": "18–28℃，不耐寒，低于 10℃ 易受冻害。",
+      "tips": "叶片易积灰，可用湿布轻擦保持光泽，乳汁有轻微毒性避免入口。"
+    }
+  },
+  {
+    "id": "pachira_aquatica",
+    "cnName": "发财树",
+    "enName": "Money Tree",
+    "aliases": ["瓜栗"],
+    "tags": ["观叶植物", "大型绿植", "客厅"],
+    "care": {
+      "light": "散射光到中等光照，长期光线过弱会徒长、叶片变黄。",
+      "water": "偏耐旱，宁干勿涝，土壤干透再浇透，切忌盆内积水。",
+      "temperature": "16–30℃，冬季注意防寒避免冷风直吹。",
+      "tips": "喜欢通风环境，盆土要疏松透气，浇水前可掂盆判断轻重。"
+    }
+  },
+  {
+    "id": "zamioculcas_zamiifolia",
+    "cnName": "金钱树",
+    "enName": "ZZ Plant",
+    "aliases": ["雪铁芋"],
+    "tags": ["耐阴", "耐旱", "办公室"],
+    "care": {
+      "light": "耐弱光，可放室内偏阴位置，光线过强易晒伤叶片。",
+      "water": "块根储水能力强，少浇水更安全，完全干透再浇透。",
+      "temperature": "18–30℃，低于 10℃ 要减少浇水并注意保温。",
+      "tips": "忌频繁浇水和重肥，叶片发黄多与积水或低温有关。"
+    }
+  },
+  {
+    "id": "dracaena_fragrans",
+    "cnName": "巴西木",
+    "enName": "Corn Plant",
+    "aliases": ["香龙血树"],
+    "tags": ["观叶植物", "大型绿植", "室内"],
+    "care": {
+      "light": "明亮散射光最好，可耐半阴，避免暴晒。",
+      "water": "保持土壤微湿，表层 2cm 干再浇水，冬季适度控水。",
+      "temperature": "18–28℃，不耐寒，低于 10℃ 易黄叶。",
+      "tips": "怕烟尘和油污，适合放在通风好的客厅角落。"
+    }
+  },
+  {
+    "id": "schefflera_arboricola",
+    "cnName": "鸭脚木",
+    "enName": "Umbrella Plant",
+    "aliases": ["鹅掌柴"],
+    "tags": ["观叶植物", "室内", "阳台"],
+    "care": {
+      "light": "喜明亮散射光，可耐半阴，光照不足会徒长。",
+      "water": "见干见湿，盆土表面干后再浇水，避免长期积水。",
+      "temperature": "15–28℃，冬季不低于 5℃ 为宜。",
+      "tips": "可通过修剪控制株形，保持伞状叶片紧凑。"
+    }
+  },
+  {
+    "id": "chlorophytum",
+    "cnName": "吊兰（普通品种）",
+    "enName": "Spider Plant Common",
+    "aliases": ["桂兰"],
+    "tags": ["观叶植物", "垂吊", "新手友好"],
+    "care": {
+      "light": "散射光或半阴环境均可，避免正午强光直射。",
+      "water": "保持土壤略微湿润，夏季适当增加喷雾提高空气湿度。",
+      "temperature": "15–25℃，冬季注意防寒。",
+      "tips": "适合吊盆栽培，小苗易分株繁殖。"
+    }
+  },
+  {
+    "id": "spathiphyllum_floribundum",
+    "cnName": "大白掌",
+    "enName": "Peace Lily Large",
+    "aliases": ["大花白掌"],
+    "tags": ["观花观叶", "室内", "半阴"],
+    "care": {
+      "light": "散射光充足更易开花，忌强烈直射。",
+      "water": "保持盆土湿润但不积水，夏季适当增湿。",
+      "temperature": "18–28℃，低于 12℃ 易黄叶。",
+      "tips": "花期可适当补充磷钾肥促进持续开花。"
+    }
+  },
+  {
+    "id": "crassula_ovata",
+    "cnName": "玉树",
+    "enName": "Jade Plant",
+    "aliases": ["景天树"],
+    "tags": ["多肉木本", "阳台", "耐旱"],
+    "care": {
+      "light": "喜充足光照，光线不足枝条易徒长倒伏。",
+      "water": "耐旱，盆土干透后再浇透，冬季需严格控水。",
+      "temperature": "15–28℃，冬季保持 5℃ 以上防冻。",
+      "tips": "适合盆景造型，避免频繁移动和过度修剪。"
+    }
+  },
+  {
+    "id": "aloe_vera",
+    "cnName": "芦荟",
+    "enName": "Aloe Vera",
+    "aliases": ["库拉索芦荟"],
+    "tags": ["多肉", "药用", "阳台"],
+    "care": {
+      "light": "喜阳光充足，也能适应散射光。",
+      "water": "耐旱，土壤完全干透后再浇水，忌长期潮湿。",
+      "temperature": "15–30℃，不耐严寒，冬季注意防冻。",
+      "tips": "宜栽在排水良好的沙质土中，剪叶外用需注意皮肤敏感。"
+    }
+  },
+  {
+    "id": "spathiphyllum_wallisi",
+    "cnName": "小白鹤芋",
+    "enName": "Wallisii Peace Lily",
+    "aliases": [],
+    "tags": ["观花观叶", "室内", "半阴"],
+    "care": {
+      "light": "喜明亮散射光，忌暴晒。",
+      "water": "保持盆土微湿，避免积水导致烂根。",
+      "temperature": "18–26℃ 最适宜。",
+      "tips": "适合放在书桌、床头等位置点缀空间。"
+    }
   }
 ]
 

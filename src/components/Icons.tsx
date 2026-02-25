@@ -90,3 +90,40 @@ export function IconAddToCalendar({ size = defaultSize, className }: IconProps) 
     </svg>
   )
 }
+
+export function IconLocation({ size = defaultSize, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={stroke} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+      <circle cx="12" cy="10" r="3" />
+    </svg>
+  )
+}
+
+export function IconTrash({ size = defaultSize, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={stroke} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M3 6h18M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />
+      <path d="M10 11v6M14 11v6" />
+    </svg>
+  )
+}
+
+export function IconCloudRain({ size = defaultSize, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={stroke} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M16 18a4 4 0 0 0 0-8 4 4 0 0 0-8 0 4 4 0 0 0 0 8" />
+      <path d="M12 22v-4M10 20v-4M14 20v-4" />
+    </svg>
+  )
+}
+
+export function IconCloudSun({ size = defaultSize, className }: IconProps) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={stroke} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M4.93 4.93l1.41 1.41M2 12h2M18 12h2M19.07 4.93l-1.41 1.41" />
+      <path d="M18 16a4 4 0 0 0-8 0" />
+    </svg>
+  )
+}

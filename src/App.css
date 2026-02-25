@@ -548,3 +548,381 @@
   height: 18px;
   opacity: 0.95;
 }
+
+/* ----- 新建花盆 ----- */
+.add-pot-card {
+  border-radius: 22px;
+  padding: 18px 20px;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 24px rgba(5, 150, 105, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  .add-pot-card {
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+.add-pot-title {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #064e3b;
+}
+
+.add-pot-desc {
+  margin: 0 0 14px;
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.add-pot-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.add-pot-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.add-pot-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.add-pot-input {
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #0f172a;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(5, 150, 105, 0.2);
+  border-radius: 12px;
+}
+
+.add-pot-input::placeholder {
+  color: #94a3b8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .add-pot-title { color: #ecfdf5; }
+  .add-pot-desc { color: #94a3b8; }
+  .add-pot-label { color: #cbd5e1; }
+  .add-pot-input {
+    color: #e2e8f0;
+    background: rgba(51, 65, 85, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.add-pot-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.add-pot-btn {
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-pot-btn-skip {
+  background: rgba(100, 116, 139, 0.2);
+  color: #475569;
+}
+
+.add-pot-btn-confirm {
+  background: linear-gradient(180deg, #059669 0%, #047857 100%);
+  color: #fff;
+}
+
+.add-pot-btn-confirm:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.add-pot-hint {
+  margin: 10px 0 0;
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+/* ----- 我的花盆 ----- */
+.pots-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pots-section-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #064e3b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pots-section-title { color: #ecfdf5; }
+}
+
+.pots-group-calendar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #047857;
+  background: rgba(5, 150, 105, 0.12);
+  border: 1px solid rgba(5, 150, 105, 0.25);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.pots-group-calendar-btn-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.pots-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pot-card {
+  border-radius: 20px;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 20px rgba(15, 118, 110, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+  .pot-card {
+    background: rgba(30, 41, 59, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+.pot-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.pot-card-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #064e3b;
+}
+
+.pot-card-plant {
+  font-size: 12px;
+  color: #64748b;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(5, 150, 105, 0.1);
+}
+
+.pot-card-delete {
+  margin-left: auto;
+  padding: 6px;
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.pot-card-delete:hover {
+  color: #dc2626;
+}
+
+.pot-card-delete-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.pot-card-city {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.pot-card-city-icon {
+  width: 18px;
+  height: 18px;
+  color: #059669;
+  flex-shrink: 0;
+}
+
+.pot-card-city-input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #0f172a;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(5, 150, 105, 0.15);
+  border-radius: 10px;
+}
+
+.pot-card-city-input::placeholder {
+  color: #94a3b8;
+}
+
+.pot-card-weather-btn {
+  padding: 6px 10px;
+  font-size: 11px;
+  color: #047857;
+  background: rgba(5, 150, 105, 0.1);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pot-card-weather-btn:disabled {
+  opacity: 0.6;
+}
+
+.pot-current-weather {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  background: rgba(15, 118, 110, 0.08);
+  border: 1px solid rgba(15, 118, 110, 0.12);
+}
+
+.pot-current-weather-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #0f766e;
+}
+
+.pot-current-weather-now {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.pot-current-weather-humidity {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pot-card-name { color: #ecfdf5; }
+  .pot-card-plant { color: #94a3b8; }
+  .pot-card-city-input {
+    color: #e2e8f0;
+    background: rgba(51, 65, 85, 0.4);
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+  .pot-current-weather {
+    background: rgba(20, 184, 166, 0.1);
+    border-color: rgba(20, 184, 166, 0.2);
+  }
+  .pot-current-weather-label { color: #5eead4; }
+  .pot-current-weather-now { color: #f1f5f9; }
+  .pot-current-weather-humidity { color: #94a3b8; }
+}
+
+.pot-weather-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.pot-weather-tip-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.pot-weather-tip-sun {
+  background: rgba(245, 158, 11, 0.12);
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.pot-weather-tip-rain {
+  background: rgba(59, 130, 246, 0.12);
+  color: #1d4ed8;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.pot-weather-tip-neutral {
+  background: rgba(100, 116, 139, 0.1);
+  color: #64748b;
+  border: 1px solid rgba(100, 116, 139, 0.15);
+}
+
+.pot-card-interval {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.pot-card-interval-label {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.pot-card-interval-select {
+  padding: 6px 10px;
+  font-size: 13px;
+  width: auto;
+}
+
+.pot-card-calendar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(180deg, #059669 0%, #047857 100%);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.pot-card-calendar-btn .watering-add-btn-icon {
+  width: 16px;
+  height: 16px;
+}

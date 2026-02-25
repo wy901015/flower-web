@@ -1,3 +1,5 @@
+/* ========== 液态玻璃风格 · Liquid Glass ========== */
+
 #root {
   margin: 0 auto;
   max-width: 480px;
@@ -5,8 +7,25 @@
   padding: 24px 16px 32px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text',
     'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
-  background: linear-gradient(180deg, #f3faf6 0%, #f9fffb 40%, #ffffff 100%);
-  color: #1f2933;
+  color: #0f172a;
+  background: linear-gradient(165deg,
+    #d4f1e8 0%,
+    #e8f8f4 25%,
+    #f0fdf9 50%,
+    #ecfdf5 75%,
+    #d1fae5 100%);
+  background-attachment: fixed;
+}
+
+@media (prefers-color-scheme: dark) {
+  #root {
+    background: linear-gradient(165deg,
+      #0f172a 0%,
+      #1e293b 30%,
+      #134e4a 70%,
+      #0f766e 100%);
+    color: #e2e8f0;
+  }
 }
 
 .app {
@@ -15,21 +34,55 @@
   gap: 24px;
 }
 
+/* ----- Header ----- */
 .app-header {
   text-align: left;
+}
+
+.app-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-title-icon {
+  width: 28px;
+  height: 28px;
+  color: #059669;
+  flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-title-icon {
+    color: #34d399;
+  }
 }
 
 .app-title {
   margin: 0;
   font-size: 24px;
   font-weight: 700;
-  color: #145a32;
+  letter-spacing: -0.02em;
+  color: #064e3b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-title {
+    color: #ecfdf5;
+  }
 }
 
 .app-subtitle {
-  margin: 6px 0 0;
+  margin: 8px 0 0;
   font-size: 13px;
-  color: #6b7280;
+  color: #64748b;
+  font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  .app-subtitle {
+    color: #94a3b8;
+  }
 }
 
 .app-main {
@@ -38,6 +91,7 @@
   gap: 20px;
 }
 
+/* ----- 上传卡片 · 玻璃 ----- */
 .upload-section {
   display: flex;
   flex-direction: column;
@@ -47,29 +101,100 @@
 .upload-card {
   position: relative;
   display: block;
-  border-radius: 16px;
-  background: #e7f6ed;
-  padding: 16px 18px;
-  box-shadow: 0 8px 18px rgba(21, 128, 61, 0.09);
+  border-radius: 22px;
+  padding: 20px 20px;
   cursor: pointer;
   overflow: hidden;
+  /* Liquid glass */
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    0 4px 24px rgba(5, 150, 105, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.upload-card:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 8px 32px rgba(5, 150, 105, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.upload-card:active {
+  transform: translateY(0);
+}
+
+@media (prefers-color-scheme: dark) {
+  .upload-card {
+    background: rgba(30, 41, 59, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow:
+      0 4px 24px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+  .upload-card:hover {
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.4),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
 }
 
 .upload-inner {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
+}
+
+.upload-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: rgba(5, 150, 105, 0.12);
+  color: #059669;
+  margin-bottom: 4px;
+}
+
+.upload-icon {
+  width: 22px;
+  height: 22px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .upload-icon-wrap {
+    background: rgba(52, 211, 153, 0.15);
+    color: #34d399;
+  }
 }
 
 .upload-title {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
-  color: #166534;
+  color: #064e3b;
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .upload-title {
+    color: #ecfdf5;
+  }
 }
 
 .upload-desc {
-  font-size: 12px;
-  color: #6b7280;
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+@media (prefers-color-scheme: dark) {
+  .upload-desc {
+    color: #94a3b8;
+  }
 }
 
 .upload-card input[type='file'] {
@@ -79,31 +204,53 @@
   cursor: pointer;
 }
 
+/* ----- 预览图 · 玻璃框 ----- */
 .preview-card {
-  border-radius: 14px;
-  background: #f3f4f6;
-  padding: 8px;
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+  .preview-card {
+    background: rgba(30, 41, 59, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
 }
 
 .preview-image {
   width: 100%;
   max-height: 260px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 14px;
 }
 
+/* ----- 状态文案 ----- */
 .status-text {
   margin: 6px 2px 0;
   font-size: 12px;
-  color: #6b7280;
+  color: #64748b;
   text-align: left;
 }
 
 .status-text.error {
-  color: #b91c1c;
+  color: #dc2626;
+}
+
+@media (prefers-color-scheme: dark) {
+  .status-text.error {
+    color: #f87171;
+  }
 }
 
 .identified-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   margin: 6px 2px 0;
   font-size: 13px;
   color: #047857;
@@ -111,65 +258,293 @@
   font-weight: 500;
 }
 
-.identified-name {
-  padding: 2px 6px;
-  border-radius: 999px;
-  background: #dcfce7;
+.identified-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: #059669;
 }
 
+.identified-name {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(5, 150, 105, 0.15);
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .identified-text {
+    color: #34d399;
+  }
+  .identified-icon {
+    color: #34d399;
+  }
+  .identified-name {
+    background: rgba(52, 211, 153, 0.2);
+  }
+}
+
+/* ----- 养护卡 · 主玻璃面板 ----- */
 .care-card {
-  border-radius: 18px;
-  background: #ffffff;
-  padding: 16px 18px 14px;
-  box-shadow: 0 10px 24px rgba(15, 118, 110, 0.08);
+  border-radius: 24px;
+  padding: 20px 20px 18px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow:
+    0 8px 32px rgba(15, 118, 110, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+@media (prefers-color-scheme: dark) {
+  .care-card {
+    background: rgba(30, 41, 59, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.25),
+      inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
 }
 
 .care-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin: 0;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
-  color: #134e4a;
+  color: #064e3b;
+  letter-spacing: -0.02em;
+}
+
+.care-title-icon {
+  width: 20px;
+  height: 20px;
+  color: #059669;
+  flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .care-title {
+    color: #ecfdf5;
+  }
+  .care-title-icon {
+    color: #34d399;
+  }
 }
 
 .care-tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .tag {
   font-size: 11px;
-  padding: 3px 8px;
+  font-weight: 500;
+  padding: 5px 12px;
   border-radius: 999px;
-  background: #ecfdf3;
-  color: #16a34a;
+  background: rgba(5, 150, 105, 0.12);
+  color: #047857;
+  border: 1px solid rgba(5, 150, 105, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .tag {
+    background: rgba(52, 211, 153, 0.12);
+    color: #6ee7b7;
+    border: 1px solid rgba(52, 211, 153, 0.2);
+  }
 }
 
 .care-list {
-  margin: 12px 0 0;
+  margin: 14px 0 0;
   padding: 0;
 }
 
 .care-item {
   display: grid;
-  grid-template-columns: 64px 1fr;
-  column-gap: 8px;
+  grid-template-columns: 72px 1fr;
+  column-gap: 10px;
   row-gap: 2px;
-  padding: 6px 0;
-  border-top: 1px solid #f3f4f6;
+  padding: 10px 0;
+  border-top: 1px solid rgba(15, 118, 110, 0.08);
 }
 
 .care-item:first-of-type {
   border-top-color: transparent;
 }
 
+@media (prefers-color-scheme: dark) {
+  .care-item {
+    border-top-color: rgba(255, 255, 255, 0.06);
+  }
+}
+
 .care-item dt {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 12px;
-  color: #6b7280;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.care-item-icon {
+  width: 16px;
+  height: 16px;
+  color: #059669;
+  flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .care-item dt {
+    color: #94a3b8;
+  }
+  .care-item-icon {
+    color: #34d399;
+  }
 }
 
 .care-item dd {
   margin: 0;
   font-size: 13px;
-  color: #111827;
+  line-height: 1.5;
+  color: #0f172a;
+}
+
+@media (prefers-color-scheme: dark) {
+  .care-item dd {
+    color: #e2e8f0;
+  }
+}
+
+/* ----- 浇水日历 · 玻璃内区块 ----- */
+.watering-calendar {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(15, 118, 110, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .watering-calendar {
+    border-top-color: rgba(255, 255, 255, 0.08);
+  }
+}
+
+.watering-calendar-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #064e3b;
+}
+
+.watering-calendar-icon {
+  width: 18px;
+  height: 18px;
+  color: #059669;
+}
+
+@media (prefers-color-scheme: dark) {
+  .watering-calendar-title {
+    color: #ecfdf5;
+  }
+  .watering-calendar-icon {
+    color: #34d399;
+  }
+}
+
+.watering-calendar-desc {
+  margin: 0 0 14px;
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.45;
+}
+
+@media (prefers-color-scheme: dark) {
+  .watering-calendar-desc {
+    color: #94a3b8;
+  }
+}
+
+.watering-calendar-options {
+  margin-bottom: 14px;
+}
+
+.watering-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.watering-option-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+}
+
+@media (prefers-color-scheme: dark) {
+  .watering-option-label {
+    color: #cbd5e1;
+  }
+}
+
+.watering-select {
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #0f172a;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(5, 150, 105, 0.2);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  .watering-select {
+    color: #e2e8f0;
+    background: rgba(51, 65, 85, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.watering-add-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(180deg, #059669 0%, #047857 100%);
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow:
+    0 4px 14px rgba(5, 150, 105, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.watering-add-btn:hover {
+  box-shadow:
+    0 6px 20px rgba(5, 150, 105, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.watering-add-btn:active {
+  transform: scale(0.98);
+}
+
+.watering-add-btn-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.95;
 }

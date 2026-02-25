@@ -79,7 +79,6 @@ function App() {
             <input
               type="file"
               accept="image/*"
-              capture="environment"
               onChange={handleFileChange}
             />
           </label>
